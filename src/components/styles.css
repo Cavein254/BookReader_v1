@@ -1,0 +1,40 @@
+.nav-btn {
+  display: flex;
+  float: right;
+  color: #fff;
+  border: 1px solid red;
+  margin-left: auto;
+}
+.nav-btn > ul {
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+}
+.book {
+  margin-left: 26%;
+  margin-right: 5%;
+  margin-top: 5%;
+  padding: 2%;
+  box-shadow: 5px 10px #888888;
+  min-height: 53vh;
+  max-height: 65vh;
+  border: 0.5px solid #000;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+.book-btn {
+  float: right;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  padding-top: 2%;
+}
+.book-btn > button {
+  background-color: #888888;
+  border: #000;
+}
+.book-btn > button:hover {
+  background-color: #fff;
+  color: #000;
+  border: #000;
+}
