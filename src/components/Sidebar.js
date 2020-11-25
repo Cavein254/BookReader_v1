@@ -1,19 +1,15 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
+import "./styles.css";
 
 function Sidebar() {
   return (
-    <Container
-      style={{
-        backgroundColor: "#000",
-        maxWidth: "23%",
-        minHeight: "100%",
-        top: "0",
-        left: "0",
-        position: "fixed",
-        zIndex: "-10",
-      }}
-    ></Container>
+    <Container className="sidebar">
+      <aside>
+        <h5>Upload a text File</h5>
+        <Button variant="secondary">Upload</Button>
+      </aside>
+    </Container>
   );
 }
 
